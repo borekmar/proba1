@@ -17,6 +17,12 @@ def implikacja(x, y):
         return 0
     else:
         return 1
+  
+def alternatywa_rozlaczna(x,y):
+    if (p == 1 and q == 1) or (p == 0 and q == 0):
+        return 0
+    else:
+        return 1
 
 p = random.randint(0, 1)
 q = random.randint(0, 1)
@@ -25,3 +31,4 @@ print("p:", p, "q:", q)
 print("alternatywa:", alternatywa (p, q))
 print("koniunkcja:", koniunkcja (p, q))
 print("implikacja:", implikacja(p, q))
+print("alternatywa rozłączna:", alternatywa_rozlaczna(p,q))
