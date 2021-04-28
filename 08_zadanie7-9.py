@@ -1,7 +1,3 @@
-# Napisz funkcję alternatywa(x,y), która przyjmuje tylko 1 lub 0
-# Napisz funkcję koniunkcja(x,y), która przyjmuje tylko 1 lub 0
-# Napisz funkcję implikacja(x,y), która przyjmuje tylko 1 lub 0
-
 import random
 
 def alternatywa(x, y):
